@@ -1,0 +1,10 @@
+name: Authors
+modelClass: Triangon\Library\Models\Author
+form: $/triangon/library/models/author/fields.yaml
+defaultRedirect: triangon/library/authors
+create:
+    redirect: 'triangon/library/authors/update/:id'
+    redirectClose: triangon/library/authors
+update:
+    redirect: triangon/library/authors
+    redirectClose: triangon/library/authors

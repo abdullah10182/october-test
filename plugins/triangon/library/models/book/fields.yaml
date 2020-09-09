@@ -1,0 +1,28 @@
+fields:
+    title:
+        label: Title
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        required: 0
+        preset:
+            field: title
+            type: slug
+        type: text
+    authors:
+        label: Authors
+        nameFrom: first_name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    year:
+        label: Year
+        span: auto
+        type: number
+    short_description:
+        label: 'Short description'
+        span: full
+        size: large
+        type: richeditor

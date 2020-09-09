@@ -1,0 +1,28 @@
+fields:
+    first_name:
+        label: 'First name'
+        span: auto
+        type: text
+    last_name:
+        label: 'Last name'
+        span: auto
+        type: text
+    birth_date:
+        label: 'Birth date'
+        mode: date
+        span: auto
+        type: datepicker
+tabs:
+    fields:
+        author_image:
+            label: 'Author image'
+            mode: image
+            imageWidth: '200'
+            imageHeight: '200'
+            useCaption: true
+            thumbOptions:
+                mode: crop
+                extension: auto
+            span: auto
+            type: fileupload
+            tab: 'Tab 1'

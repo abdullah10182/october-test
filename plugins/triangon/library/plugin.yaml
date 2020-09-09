@@ -1,0 +1,20 @@
+plugin:
+    name: 'triangon.library::lang.plugin.name'
+    description: 'triangon.library::lang.plugin.description'
+    author: triangon
+    icon: oc-icon-database
+    homepage: ''
+navigation:
+    library:
+        label: Library
+        url: triangon/library/books
+        icon: icon-book
+        sideMenu:
+            books:
+                label: Books
+                url: triangon/library/books
+                icon: icon-bookmark
+            authors:
+                label: Authors
+                url: triangon/library/authors
+                icon: icon-user

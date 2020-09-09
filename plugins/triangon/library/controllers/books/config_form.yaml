@@ -1,0 +1,10 @@
+name: Books
+modelClass: Triangon\Library\Models\Book
+form: $/triangon/library/models/book/fields.yaml
+defaultRedirect: triangon/library/books
+create:
+    redirect: 'triangon/library/books/update/:id'
+    redirectClose: triangon/library/books
+update:
+    redirect: triangon/library/books
+    redirectClose: triangon/library/books

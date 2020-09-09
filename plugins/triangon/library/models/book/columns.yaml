@@ -1,0 +1,18 @@
+columns:
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    year:
+        label: Year
+        type: text
+        searchable: true
+        sortable: true
+    authors:
+        label: Author
+        type: text
+        relation: authors
+        select: first_name
+        searchable: true
+        sortable: true
